@@ -1,0 +1,74 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Montserrat&display=swap'); */
+.Home_section{
+    width: 1292px;
+    height: 620px;
+    border-radius: 20px;
+    position: absolute;
+    left: calc(50% - 1292px/2 - 15px);
+    box-sizing: border-box;
+    top:92px;
+    background:linear-gradient(90deg, #96E9FB 0%, #ABECD6 100%);
+}
+.Home_image{
+    position: absolute;
+    width: 699px;
+    height: 696px;
+    top: 0px;
+    left: 675.5px;
+}
+.Contents{
+    height: 50%;
+    width: 548px;
+    margin-left:126.5px ;
+    margin-top: 151.5px;;
+}
+.Summer{
+    width: 122px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2A7CC7;
+}
+.newCollections{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 50px;
+    color: #252B42;
+    width: 548px;
+    box-sizing: border-box;
+    height: 80px;
+    letter-spacing: 0.2px;
+}
+.Para{
+    height: 60px;
+    width: 376px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.shopNow_Button{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    height: 62px;
+    width:221px;
+    border-radius: 5px;
+    gap: 10px;
+    padding: 15px,40px,15px,40px;
+    background-color: #23A6F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    margin-top: 30px;
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Montserrat&display=swap');
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.Nav-component{
+    display: flex;
+    justify-content: space-around;
+    width: 31%;
+    font-family: 'Montserrat';
+    margin-right: 20%;
+}
+.Nav-logo{
+    width: 116px;
+    height: 32px;
+    margin-left: 4.5%;
+    font-family: 'Montserrat';
+    display: flex;
+    align-items: center;
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    cursor: pointer;
+}
+.Nav-icons{
+    margin-right: 3%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+    margin-right: 10px;
+    justify-content:space-around;
+    font-family: 'Montserrat';
+    color: #1E1E1E;
+    font-size: 14px;
+    font-weight: 700;
+    color: #23A6F0;;
+}
+.cart,.Favourites{
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.cart span, .Favourites span{
+    font-weight: 400;
+    font-size: small;
+    width: 5px;
+    height: 16px;
+    line-height: 16px;
+    
+}
+
+
+
+
+.Nav-component div{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.shopComponent{
+    width: 38px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.Nav-icons svg{
+    display: flex;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    color: #23A6F0;
+}

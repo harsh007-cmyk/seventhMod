@@ -1,0 +1,46 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    top: 790px;
+    position: absolute;
+    box-sizing: border-box;
+   overflow-y: auto;
+
+}
+.cardItem img{
+    width: 366px;
+    height: 307px;
+}
+.cardItem{
+    width: 366px;
+    height: 472px;
+    background-color: red;
+    margin-left: 5px;
+}
+.productName{
+    text-align: center;
+
+    font-family: 'Montserrat';
+   
+    background-color:green;
+    /*height: 32px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px; */
+}
+.addToCart{
+    width: 328px;
+    height: 43px;
+    margin-left: 18px;
+    margin-top: 45px;
+    background-color: #32A6F0;
+    border-radius: 10px;
+    border: #32A6F0;
+    color: #ffff;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}

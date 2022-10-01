@@ -1,0 +1,106 @@
+footer{
+    margin-top:1300px ;
+    background-color: #FFFFFF;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    display: flex;
+    width: 1057px;
+    justify-content: space-between;
+    margin-left: 15%;
+    height: 272;
+}
+.info ul{
+    list-style: none;
+    padding-left: 0px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #737373;
+}
+info h5{
+    color: #252B42;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 24px;
+}
+.border{
+    width: 1057px;
+    height: 0px;
+    margin-left: 15%;
+    border: 1px solid #E6E6E6;
+}
+.Heading{
+    width: 1057px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    height: 135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+    background-color: #FFFFFF;
+}
+.footer_icons{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: 50px;
+    width: 10%;
+}
+.footer_icons div{
+    height: 22px;
+    height: 22px;
+
+}
+.submitEmail form{
+    height: 58px;
+    width: 321px;
+    border-radius: 5px;
+    gap: 47px;
+
+}
+.submitEmail{
+    background-color:#FFFFFF;
+    width: 24%;
+}
+.submitEmail p{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    color: #737373;
+}
+.submitEmail form input{
+    height: 58px;
+    background-color:#F9F9F9;
+    color: #737373;
+    font-family: 'Montserrat';
+    border: 1px solid #E6E6E6;
+    padding-left:10px ;
+}
+.submitEmail button{
+    height: 58px;
+    background-color: #23A6F0;
+    border: none;
+    font-family: 'Montserrat';
+}
+.bottomfooter{
+    padding-left: 15%;;
+    height: 74px;
+    background-color: #fafafa;
+    color: #737373;
+    font-weight: 700;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Montserrat';
+}
